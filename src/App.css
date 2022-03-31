@@ -1,4 +1,12 @@
+.inputBorder {
+    border: none !important;
+    border-bottom: 1px solid gray !important;
+    margin: 8px 0px 8px 4px !important;
+}
 
+.input-group{
+    align-items: center !important;
+}
 
 
 
