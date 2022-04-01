@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="container">
       <div className="row d-flex justify-content-center align-items-center vh-100">
-        <div className="col col-md-6 col-lg-5 col-xl-4 bg-white p-5 ">
+        <div className="col col-md-6 col-lg-5 col-xl-4 bg-white p-5">
           <h1 class="text-center">Login</h1>
           <label for="basic-url" class="form-label mt-4">
             Username

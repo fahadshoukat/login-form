@@ -17,6 +17,11 @@ background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+
 border-radius: 18px;
 }
 
+.col {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px !important;
+    border-radius: 8px;
+}
+
 .fbIcon {
     color: #1877f2;
     font-size: 3rem;
