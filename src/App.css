@@ -16,3 +16,19 @@ background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, F
 border-radius: 18px;
 }
 
+.fbIcon {
+    color: #1877f2;
+    font-size: 2.5rem;
+    padding: 0 8px;
+}
+.twIcon {
+    color: #1da1f2;
+    font-size: 2.5rem;
+    padding: 0 8px;
+}
+.gpIcon {
+    color: #dd4b39;
+    font-size: 2.5rem;
+    padding: 0 8px;
+}
+

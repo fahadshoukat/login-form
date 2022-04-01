@@ -1,7 +1,8 @@
 import "./App.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FaRegUser } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaTwitterSquare, FaGooglePlusSquare } from "react-icons/fa";
 const App = () => {
   return (
     <div className="container border border-info">
@@ -23,7 +24,7 @@ const App = () => {
             Password
           </label>
           <div class="input-group flex-nowrap">
-            <FaLock class="h3 align-middle" />
+            <FaLock class="h3 align-middle"/>
             <input
               type="password"
               class="form-control inputGroup-sizing-lg inputBorder"
@@ -41,8 +42,10 @@ const App = () => {
             </button>
           </div>
           <p class="text-center">Or Sign Up Using</p>
-          <div>
-          
+          <div class="text-center">
+          <FaFacebookSquare className="fbIcon" />
+          <FaTwitterSquare className="twIcon" />
+          <FaGooglePlusSquare className="gpIcon" />
           </div>
         </div>
       </div>
