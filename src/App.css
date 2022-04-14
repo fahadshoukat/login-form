@@ -2,10 +2,16 @@
     border: none !important;
     margin: 8px 0px 8px 4px !important;
 }
-
+.form-control:focus{
+    box-shadow: none !important;
+}
 .input-group{
     align-items: center !important;
     border-bottom: 1px solid gray !important;
+}
+
+.text-dark:hover {
+color: blue !important;
 }
 
 .btn {

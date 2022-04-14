@@ -56,7 +56,7 @@ const App = () => {
             <p class="mt-5">Or Sign Up Using</p>
             <a
               href="#"
-              class="text-decoration-none text-dark :hover-color-blue"
+              class="text-decoration-none text-dark"
             >
               SIGN UP
             </a>
